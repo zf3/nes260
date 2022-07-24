@@ -12,7 +12,7 @@ Current status:
 
 ### Running NES260
 
-Download the binary release zip file. Inside there's a BOOT.bin image for booting the KV260 board, and nes260.py for running on Windows.
+Download the [binary release zip file](https://github.com/zf3/nes260/releases/tag/v1.0). Inside there's a BOOT.bin image for booting the KV260 board, and nes260.py for running on Windows.
 
 KV260's boot process is different from most FPGA boards. It always boots from on-board QSPI flash and there's no switches/jumpers for other ways. So easiest way to boot BOOT.bin is to program it to QSPI flash. Follow [Xilinx's instructions](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/1641152513/Kria+K26+SOM#Stand-alone-FW-Update-&-Recovery-Utility) to do it. (You will need an Ethernet cable). If you have Xilinx's Vitis/Vivado development tools installed, you can actually switch to [SD bootmode](https://xilinx.github.io/kria-apps-docs/creating_applications/1.0/build/html/docs/creating_applications_bootmodes.html). The MicroSD card preparation is as simple as formating it as FAT and copy the BOOT.BIN to it.
 
