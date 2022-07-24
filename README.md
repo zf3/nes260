@@ -30,5 +30,8 @@ You can,
 * Why make NES260 when there's already Mister? Actually Xilinx KV260 is much more powerful than the board Mister uses (Intel DE10-nano), and at roughly the same price. So it has potential for FPGA retro-gaming. The board was just released in 2021 and I haven't seen an emulator built with it. So here it goes.
 * Also check out another FPGA project of mine, [neoapple2](https://github.com/zf3/neoapple2).
 
+### Video demo
+
+[![NES260 demo](https://img.youtube.com/vi/p09k8FfFO0Q/0.jpg)](https://www.youtube.com/watch?v=p09k8FfFO0Q)
 
 Feng Zhou, 2022-7
